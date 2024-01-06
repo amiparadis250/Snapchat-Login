@@ -93,7 +93,7 @@ input {
     .header {
       width: 100%;
       position: relative;
-      top: 3px;
+      top: -0.5px;
     }
   
     
