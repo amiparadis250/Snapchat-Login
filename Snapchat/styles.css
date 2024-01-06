@@ -86,7 +86,18 @@ input {
     padding: 6px;
     border: 1px solid black;
 }
-
+/* Styles for all phones */
+@media only screen and (max-width: 767px) {
+   
+  
+    .header {
+      width: 100%;
+      position: relative;
+      top: 3px;
+    }
+  
+    
+  }
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
 
     /* Styles specific to iPhone 11 Pro X-1 go here */
